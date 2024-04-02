@@ -9,5 +9,5 @@ app.use(express.static(path.join(__dirname, 'public'))); //__dirname is the curr
 
 //localhost:8081
 app.listen(8081, () => {
-  console.log('Server is running on port 8080');
+  console.log('Server is running on port 8081');
 });
